@@ -85,6 +85,18 @@ h2 {
   margin-bottom: 0;
 }
 
+.cert-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.cert-icon {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
 .cert h3 {
   font-size: 9.5pt;
   margin: 0 0 2px;
