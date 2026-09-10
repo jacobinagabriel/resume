@@ -71,6 +71,20 @@ h2 {
   line-height: 1.6;
 }
 
+.contact-list a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.contact-icon {
+  width: 13px;
+  height: 13px;
+  flex-shrink: 0;
+}
+
 .sidebar p {
   font-size: 9.5pt;
   line-height: 1.5;
