@@ -93,7 +93,8 @@ h2 {
   line-height: 1.6;
 }
 
-.contact-list a {
+.contact-list a,
+.contact-list .contact-item {
   display: flex;
   align-items: center;
   gap: 6px;
