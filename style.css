@@ -25,6 +25,10 @@ body {
   padding: 14mm 16mm;
 }
 
+.header {
+  position: relative;
+}
+
 .header h1 {
   margin: 0;
   font-size: 26pt;
@@ -38,6 +42,24 @@ body {
   color: var(--muted);
   border-bottom: 1.5px solid var(--rule);
   padding-bottom: 10px;
+}
+
+.download {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-flex;
+  align-items: center;
+  font-size: 9.5pt;
+  color: #fff;
+  background: var(--ink);
+  padding: 6px 12px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.download:hover {
+  background: #000;
 }
 
 .content {
@@ -166,6 +188,10 @@ h2 {
 }
 
 @media print {
+  .download {
+    display: none;
+  }
+
   body {
     background: #fff;
   }

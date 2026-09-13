@@ -23,3 +23,14 @@ Regenerate `resume.pdf` after any edit:
 ```bash
 python build.py
 ```
+
+## Publicação
+
+O site é publicado no GitHub Pages pelo workflow `.github/workflows/pages.yml`,
+a cada push na `master`:
+
+<https://jacobinagabriel.github.io/resume/>
+
+O workflow regenera o PDF a partir de `resume.html` antes de publicar, então o
+`resume.pdf` do site está sempre em sincronia com a fonte. O botão "Baixar PDF"
+aparece apenas no site — a regra `@media print` o remove do PDF gerado.
