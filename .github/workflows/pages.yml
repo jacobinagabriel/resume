@@ -38,6 +38,7 @@ jobs:
           mkdir -p site/assets
           cp resume.html site/index.html
           cp style.css resume.pdf site/
+          cp resume.pdf site/gabriel-jacobina.pdf
           cp assets/*.svg site/assets/
 
       - uses: actions/configure-pages@v5
